@@ -1,6 +1,6 @@
 <p align="SEGUNDO PROJETO">
   <a href="#-Meu site">
-  <a href="#-projeto">Meu primeiro projeto</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto-2</a>
 </p>
 
 <p align="PRIMEIRO PROJETO">

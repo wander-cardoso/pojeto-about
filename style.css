@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap')
+
+*{
+    margin: 0;
+    padding: 0;    
+}
+
+:root{
+    --primeira--cor: #042865;
+    --segunda--cor: rgb(37, 157, 243);
+    --terceira--cor: #5b7cf4;
+
+    --primeira--font: "Montserrat", sans-serif;
+    --segunda--font:  "Krona One", sans-serif;
+}
+
+body {
+    /*height: 100vh;  Isso garante deixar a página em 100% da 
+    tela em que se acessa o site */
+    box-sizing: border-box;/* permite que os valores de posicionamento sejam relativos ao conteúdo e independentes de alterações nos tamanhos de borda e preenchimento, o que às vezes é desejável */
+    background-image: url(./background1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: var(--segunda--cor);
+    margin-block-end: 40%;
+}
+
+.imagem {
+    border-radius: 20%;
+    width: 30%;
+    height: 30%;
+    border: 2px solid var(--terceira--cor);
+    animation-play-state: running;
+}
+
+strong {
+    color: var(--terceira--cor);
+}
+
+.cabecalho{
+    padding: 1.5% 15%;
+    
+}
+
+.cabecalho__menu{
+    display: flex;
+    gap: 2%;
+}
+
+.cabecalho__menu__link{
+    font-size: 1.625rem;
+    font-family: var(--primeira--font);
+    font-weight: 600;
+    color: var(--terceira--cor);
+    text-decoration: none;
+}
+
+.apresentacao {
+    padding: 3% 15%;
+    display: flex;
+    justify-content: space-between;
+    gap: 5%;
+}
+.apresentacao__conteudo{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.apresentacao__conteudo__titulo{
+    font-size: 2.25rem;
+    font-family: var(--segunda--font);
+}
+
+.titulo /* para selecionar a clase do strong */ {
+    color: orangered;
+}
+
+.apresentacao__conteudo__texto{
+    font-size: 1.5rem;
+    font-family: var(--primeira--font);
+}
+
+.apresentacao__botoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.sub__titulo{
+    font-family: var(--segunda--font);
+    font-weight: 400%;
+    font-size: 1.875rem;
+    text-decoration: underline;
+    color: var(--terceira--cor);
+}
+
+.apresentacao__botoes__links {
+    /* background-color: #000000; */ 
+    width: 18%;
+    height: 16%;
+    border-radius: 4px;
+    border: 5px ridge var(--terceira--cor);
+    padding-bottom:  6.80%;
+    text-align: center;
+    font-size: 1.125rem;
+    text-decoration: none;
+    color: var(--terceira--cor);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+
+.apresentacao__botoes__links:hover  {
+    transition: background 0.6s; /* isso serve para deixar o botão com mais interacao de background
+    quando o mouse passar por cima */
+    background-color: var(--terceira--cor); /* isso serve para deixar o botao de outra cor quando o mouse estiver sobre ele */
+}
+
+.apresentacao__botoes__links .icon{
+    align-items: flex-start;
+    vertical-align: middle;
+    margin-left: 5%;
+}
+
+.rodape{
+
+    color: var(--primeira--cor);
+    background-color: var(--terceira--cor);
+    padding: 2px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    size: 10px;
+    font-weight: 400;
+    text-decoration-line: underline;
+}
+
+@media (max-width: 900px) {
+    .cabecalho{
+        padding: 5% 40% 8% 8%;
+    }
+
+    .cabecalho__menu{
+        justify-content:  center;
+    }
+
+    .apresentacao {
+        
+        flex-direction: column-reverse;
+    }
+    
+  }

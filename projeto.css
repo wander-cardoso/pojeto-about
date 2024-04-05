@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap')
+
+*{
+    margin: 0;
+    padding: 0;    
+}
+
+.imagem__about{
+    border-radius: 4.5%;
+    width: 375px;
+    height: 330px;
+    border: 2px  #ffffff;
+    margin: 0% 4%;
+    padding: 0% 0%;
+
+}
+
+.paragrafo{
+    color: rgb(37, 157, 243);
+    font-size: 150% ;
+    font-family: "Krona One", sans-serif;
+}
+
+.paragrafo__home{
+    color: orangered;
+    font-size: 150%;
+    text-decoration: none;
+}

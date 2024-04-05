@@ -3,7 +3,7 @@
   <a href="#-projeto">Projeto-2</a>
 </p>
 
-<p align="PRIMEIRO PROJETO">
+<p align="Segundo PROJETO">
  <img src="./assets/portifolio.png" alt="Welcome!" />
 
 </p>

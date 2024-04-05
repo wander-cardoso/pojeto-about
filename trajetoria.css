@@ -18,11 +18,12 @@
 }
 
 .apresentacao {
-    padding: 3% 10%;
+    
     display: flex;
     justify-content: center;
-    gap: 5%;
+    
     flex-direction: column;
+    
 }
 
 .apresentacao__conteudo{
@@ -33,18 +34,20 @@
 }
 
 .apresentacao__conteudo__titulo{
-    font-size: 2.25rem;
+    font-size: 20%;
     font-family: "Krona One", sans-serif;
     color: rgb(37, 157, 243);
     line-height: 4%;
+    
 }
 
 .apresentacao__conteudo__texto1{
-    font-size: 1.5rem;
+    
     font-family: "Montserrat", sans-serif;
     color: rgb(37, 157, 243);
     display: flex;
-    white-space: pre-line;
+    
+    
 }
 
 .apresentacao__conteudo__texto2{

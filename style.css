@@ -31,8 +31,7 @@ body {
     width: 30%;
     height: 30%;
     border: 2px solid var(--terceira--cor);
-    animation-play-state: running;
-}
+    
 
 strong {
     color: var(--terceira--cor);

@@ -11,7 +11,7 @@
     height: 330px;
     border: 2px  #ffffff;
     margin: 0% 4%;
-    padding: 0% 0%;
+    padding: 0% 0% 20%;
 
 }
 
@@ -26,3 +26,22 @@
     font-size: 150%;
     text-decoration: none;
 }
+
+
+@media (max-width: 900px) { /* isso serve para configurar o website para telas menores */
+    .cabecalho{
+        padding: 5% 40% 8% 8%;
+    }
+
+    .cabecalho__menu{
+        justify-content:  center;
+    }
+
+    .apresentacao {
+        
+        flex-direction: column-reverse;
+    }
+    
+  }
+
+  

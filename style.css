@@ -9,7 +9,6 @@
     --primeira--cor: #042865;
     --segunda--cor: rgb(37, 157, 243);
     --terceira--cor: #5b7cf4;
-
     --primeira--font: "Montserrat", sans-serif;
     --segunda--font:  "Krona One", sans-serif;
 }
@@ -31,7 +30,8 @@ body {
     width: 30%;
     height: 30%;
     border: 2px solid var(--terceira--cor);
-    
+    animation-play-state: running;
+}
 
 strong {
     color: var(--terceira--cor);
@@ -100,13 +100,15 @@ strong {
 
 .apresentacao__botoes__links {
     /* background-color: #000000; */ 
+    display: block;
+    flex-direction: column;
     width: 18%;
-    height: 16%;
+    height: 20%;
     border-radius: 4px;
     border: 5px ridge var(--terceira--cor);
     padding-bottom:  6.80%;
     text-align: center;
-    font-size: 1.125rem;
+    font-size: 150%;
     text-decoration: none;
     color: var(--terceira--cor);
     font-family: "Montserrat", sans-serif;
@@ -120,9 +122,9 @@ strong {
 }
 
 .apresentacao__botoes__links .icon{
-    align-items: flex-start;
-    vertical-align: middle;
-    margin-left: 5%;
+    padding: 1% 35%;
+    align-items: center;
+    width: 30%;
 }
 
 .rodape{
@@ -137,7 +139,7 @@ strong {
     text-decoration-line: underline;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 900px) { /* isso serve para configurar o website para telas menores */
     .cabecalho{
         padding: 5% 40% 8% 8%;
     }

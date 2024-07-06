@@ -4,7 +4,7 @@
 </p>
 
 <p align="Segundo PROJETO">
- <img src="/portifolio.png" alt="Welcome!" />
+ <img src="/portifolio.png" alt="projeto dois" />
 
 </p>
 
